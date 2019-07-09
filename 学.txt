@@ -1,0 +1,166 @@
+书单：《Zookeeper分布式过程》
+2019.Q1:JVM优化，sql优化、wiki上了解过往项目
+
+
+1:jvm 配置
+2.java 过滤器(2019.01.22)
+3.idea对tomcat部署过程，原理。
+4.流，swagger
+5.分库分表
+6.主从数据库,读写分离数据库，数据库高可用方案
+7.zookeeper,zk的客户端api (2019.01.05-2019.01.06)
+//8.debug原理(同49)
+9.tomcat的本质，是怎么调jvm 的
+10.在程序中调用执行jvm、shell脚本
+11.Servlet容器和web服务器,springmvc的dispatchServlet
+12.jetty嵌入开发(jetty和netty)
+13.zk和kafka命令    
+//14.dispatch server 执行flow的逻辑
+15.zk和kafka的关系
+16.jdk1.8 api
+17.自定义注解，自定义注解扫描
+18.Arthas GitHub地址：https://github.com/alibaba/arthas
+					用户文档：https://alibaba.github.io/arthas/
+19.悲观锁乐观锁详解
+20.listener filter servlet(2019.01.26)
+21.JVM参数配置,深度了解
+22.arthas
+23.log4j(2019.01.12)
+24.lambda表达式
+25.多线程公用变量
+26.maven仓库repositories 属性配置，repositories中的包加载到项目的原理。
+27.Oracle和plsql(Oracle聚合函数，分析函数)（2019.01.12）
+28.springmvc传参具体方式(2019.01.12)
+29.plsql developer 使用方法
+30.vim操作命令
+31.linux上传下载 ,移动文件
+32.tomcat 运行log，几个日志名的区别 rm catalina.2019-01-10.log 
+[tomcats@bjkjy-bi-tomdev02.bjkjy.baidu.com logs]$ rm host-manager.2019-01-10.log 
+[tomcats@bjkjy-bi-tomdev02.bjkjy.baidu.com logs]$ rm localhost.2019-01-10.log 
+[tomcats@bjkjy-bi-tomdev02.bjkjy.baidu.com logs]$ rm manager.2019-01-10.log 
+33.pom文件的里的标签，重点build标签
+34.跨域解决方案（2019.01.24）
+35.RSA加密，MD5加密 （2019.01.24）
+36.group by having
+37.两种war包的区别(2019.01.22)
+38.setpar 和setatr的区别(2019.01.22)
+39.mysql深度会玩（索引、优化等，mysql索引和group的关系）
+40.算法（这是个大活）
+41.maven打包,工程结构，打包 ，命令（pom文件详解），plugin、profiles 标签，Maven的构建生命周期理解，反应堆，maven多模块项目。
+42.quartz怎么用
+43.Assertion
+44.request and respend
+45.连接池
+46.Interceptor 和filter 的区别(2019.01.22)
+47.正则
+48.Java中的回调函数机制(2019.01.22)
+49.debug 多线程，debug原理。Java 的调试体系—— JPDA 。
+50.cookie和session的区别和用法
+51.token的玩法
+52.加盐（加盐以后怎么验证）（2019.01.24）
+53.Base64 
+54.junit
+55.单测的编写
+56.断言(2019.01.28)
+57.密钥传输
+58.java8 新特性
+59.kafka与zookeeper之间的关联
+60.mysql索引原理
+61.那几个树
+62.static 变量的初始化（2019.01.31）
+63.mybatis多套数据源配置策略 （2019.02.25 https://blog.csdn.net/baidu_23086307/article/details/79536574）
+64.事务配置策略
+65.T的用法
+66.java native方法详解
+67.jvm中Xmx和Xmas等参数的调试
+68.String中intern方法
+69.Java performance
+70.Jdk和openjdk的区别
+71.Jdk下各个包的功能
+71.内存映像分析工具，eclipse memory analyzer
+72.beans标签里面的属性
+73.jvm native 方法是怎么个意思I (与 66 相同)
+74.句柄
+75.技术编译器
+76.Xstream
+77.TreeMap常用方法
+78.pom.xml详解
+79.海量数据维护
+80.MySQL高可用方案
+81.xml文件头
+82.双亲委托模式
+83.treemap 基本操作
+84.多列谓词索引规则
+85.token
+86.红黑树
+87.NavigableMap接口，意味着它支持一系列的导航方法
+88.git 
+89.用 maven filter 管理不同环境的配置文件
+90.Gerrit 
+91.Queue.offer 等操作
+92.ElatisSearch
+93.spring cloud
+94.kafka在zk上的存储目录
+95.spring session redis
+96.Jenkins
+97.    <listener>
+        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+    </listener>
+    <listener>
+        <listener-class>org.springframework.web.context.request.RequestContextListener</listener-class>
+    </listener>
+    <listener>
+        <listener-class>org.springframework.web.util.IntrospectorCleanupListener</listener-class>
+    </listener>
+    作用
+    
+98.概率密度
+99.泊松分布
+100.<T> Page<T>
+101.spring optional用法
+102.了解spring-boot 各个启动器
+103.ElasticSearch
+104.redis 单线程为啥快，持久化
+105.ELK三大组件融合
+106.spring data
+107.mysql代理中间件
+108.hadoop生态
+109.k8s生态
+110.<E>
+111.拉姆达表达式
+112.各种树
+113.mysql隔离级别
+114.JVM性能调优监控工具jps、jstack、jmap、jhat、jstat、hprof使用详解
+115.spring Security
+116.Spring Boot Actuator
+117.Protobuf
+118.mvn clean deploy -Dmaven.test.skip=true
+119.pom.xml 文件详解
+120.mapreduce 常见算法
+121.经典排序算法
+122.http 和HTTPS的区别
+123.探针技术
+124.爬虫技术
+125.流
+126.shell 和 hadoop shell
+127.线程间通信
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
