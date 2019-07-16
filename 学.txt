@@ -157,7 +157,15 @@
     ConcurrentLinkedQueue: 高效的并发队列，使用链表实现。可以看做一个线程安全的 LinkedList，这是一个非阻塞队列
     BlockingQueue: 这是一个接口，JDK内部通过链表、数组等方式实现了这个接口。表示阻塞队列，非常适合用于作为数据共享的通道。
     ConcurrentSkipListMap: 跳表的实现。这是一个Map，使用跳表的数据结构进行快速查找。
-
+    https://github.com/Snailclimb/JavaGuide/blob/master/docs/java/Multithread/%E5%B9%B6%E5%8F%91%E5%AE%B9%E5%99%A8%E6%80%BB%E7%BB%93.md
+137.读写锁，读读共享、写写互斥、读写互斥、写读互斥
+138.对象的访问定位的两种方式（句柄和直接指针两种方式）
+139.jvm(深入理解 Java 虚拟机：JVM 高级特性与最佳实践（第二版)
+140.三次握手
+141.jvm 诊断
+142.Java唤醒一个阻塞线程
+143.多线程-interrupt()，isInterrupted()，interrupted()
+144.JVM 中哪个参数
 
 
 
