@@ -165,7 +165,10 @@
 141.jvm 诊断
 142.Java唤醒一个阻塞线程
 143.多线程-interrupt()，isInterrupted()，interrupted()
-144.JVM 中哪个参数
+144.JVM 中各个参数的意义
+145.深度研究jc
+146.String 的算法
+147.socket 怎么玩
 
 
 
